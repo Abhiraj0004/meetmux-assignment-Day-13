@@ -2,7 +2,6 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-# Correct path
 df = pd.read_csv('../data/marketing_data.csv')
 
 df['ROI'] = (df['Revenue'] - df['Spend']) / df['Spend']
